@@ -1,0 +1,27 @@
+footer {
+    display: grid;
+    grid-template-columns: auto max-content;
+    padding: 8px;
+    align-items: center;
+    
+}
+
+.btn{
+    color: white;
+    background-color: darkorchid;
+    width: 36px;
+    aspect-ratio: 1;
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(113, 37, 151);
+}
+
+.btn:active{
+    background-color: darkorchid;
+}

@@ -1,0 +1,9 @@
+nav {
+    background-color:darkorchid;
+    padding: 16px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    gap: 8px;
+}

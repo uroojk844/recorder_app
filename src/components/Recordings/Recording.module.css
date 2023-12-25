@@ -1,0 +1,27 @@
+.list_item {
+    padding: 8px;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 40px auto 40px;
+    border-bottom: 1px solid #efefef;
+}
+
+.name {
+    align-self: center;
+}
+
+.icon{
+    background-color: darkorchid;
+    width: 36px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    place-self: center;
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
